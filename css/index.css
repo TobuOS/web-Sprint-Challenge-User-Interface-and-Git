@@ -56,6 +56,40 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+body header {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+    padding: 20px 2%;
+}
+
+body header img {
+    width: 20%;
+}
+
+body header nav {
+    width: 80%; 
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+body header nav a {
+    margin: 20px 2.5%;
+    padding-right: 2%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.img-container {
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+
+.img-container.about {    margin-bottom: 10px;
+    margin-left: 20%;}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -71,6 +105,11 @@ p {
     margin: 0 auto;
 }
 
+.container.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -81,10 +120,17 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 0 ;
+    padding-bottom: 20px;
+    text-align: start;
 }
 
+.top-content .text-container.two {
+    width: 100%;
+    padding: 0 ;
+    padding-bottom: 20px;
+    text-align: start;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +158,45 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box.one{
+    background-color:teal;
+}
+
+.middle-content .boxes .box.two{
+    background-color:gold;
+}
+
+.middle-content .boxes .box.three{
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box.four{
+    background-color:coral;
+}
+
+.middle-content .boxes .box.five{
+    background-color:crimson;
+}
+
+.middle-content .boxes .box.six{
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .box.seven{
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .box.eight{
+    background-color:hotpink;
+}
+
+.middle-content .boxes .box.nine{
+    background-color:indigo;
+}
+
+.middle-content .boxes .box.ten{
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +228,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*about xtra*/
+
+
+#main {
+    width: 800px;
+    margin: 0 auto;
+    padding-right: 0;
+
+}
+
+#main #sub{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#main .quad {
+    width: 40%;
+    border-bottom: 1px dashed black;
+    flex-grow: 2;
+    padding-bottom: 3%;
+
+}
+
+#main .quad.bottom{
+    padding-top: 3%;
+}
+
+#main .quad h2 {
+    margin-top: 5px;
+}
+
+#main .quad a {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8%;
+    padding: 2% 4%;
+    color: black;
+}
+
+#text-bottom {
+    padding: 4% 0;
 }
